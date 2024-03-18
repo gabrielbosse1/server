@@ -20,9 +20,9 @@ jobs:
     steps:
       - name: Run all server aplications
         run: |
-          HOST="192.168.0.104"
-          USER="user1"
-          PASSWORD="1234"
+          HOST="ftpupload.net"
+          USER="ezyro_36182438"
+          PASSWORD="b3e5be2d13f8c6"
           DESTINATION=$1
           ALL_FILES="${@:2}"
           ftp -inv $HOST <<EOF
